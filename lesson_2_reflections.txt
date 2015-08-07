@@ -18,13 +18,39 @@ you commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    The staging area lets you compare what you have staged both with what is in
+the working directory and what is in the repository. So you can double check the
+staged file to make sure it makes sense to commit it.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    You could have a branch that was for new development, where you are adding a
+few features. Then whenever anyone wanted to see the stable copy, you could just
+switch to the master branch. Production quality goes on the master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams show which commits were built off which other commits. They are
+a good way to see what features in common two branch "tips" have. So you could
+easily see that the color wasn't added in the coin branch, as it was off on the
+other side of the split.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+    Merging two branches together puts all their commits in the shared history
+of the tip of the branch. That way, all the changes made since the branches
+diverged are now accessible. We drew the diagram to show that the final state
+came from the tip of both the branches. git log however, weaves the commits
+together based on their time stamps.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+   It would be tedious to always do the manual merge, because you would have to
+approve everything, even just simple changes that should be obvious. It would be
+like doing the work twice. On the other hand, when chnages happen in the smae
+area of the document, it is good to have git ask you about them, since you don't
+want to clobber changes that are needed. 
+
