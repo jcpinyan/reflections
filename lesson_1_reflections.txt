@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It got rid of all the sameness so that I could visually focus on just the
+small part of the document that matters.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could easily retrieve functions that I had made and then deleted when I
+realized I needed them again. I could have a stable copy available for use while
+I am tinkering with adding new features.  (Doh. Like earlier today.)
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I often forget to commit along the way, and then I have lots of changes all
+over the place. That's a con. A pro is if I were better disciplined, I could
+have each commit be a meaningful chunk of changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git saves all the files together because they have related content. However,
+only some of the files may have changed, so that means Git is using up a bunch
+of space on saving the same things over and over again. Google Docs only has to
+save a file when it itself has changed, so files will be saved less often,
+taking up less space. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will let you see each commit's hash and its message line, so you can
+locate when certain changes were made. Then you can do git diff to compare the
+hash of changes you are interested in with the hash of the previous commit in
+time. That will show you what changed in just that one commit. You could also
+compare a commit to another commit from longer ago in the past, which would show
+you a bigger scale of changes. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You always can get back to how things were before when they worked just be
+checking out an older commit. You can even track down just where things went
+wrong by comparing commits before and after the bug. By comparing, I mean doing
+a git diff. You'll want to put the older commit first when doing that git diff.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use it on Simmer at home, of course, but I would also like to use
+it more at work. I'll have to see how these options go here, and see if I want
+to bring them to work. Maybe being more comfortable with git will help me work
+on Simmer more often.
