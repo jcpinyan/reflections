@@ -9,6 +9,12 @@ on it, git status.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+    The staging area is transitional, whereas the working directory holds
+all sorts of things we change and depend on. The repository is snapshots in
+time. The staging area is ephemeral, with no memory of what was ever there. I'm
+not really sure what value it offers, other than having you think twice before
+you commit.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
