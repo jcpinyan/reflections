@@ -50,7 +50,7 @@ manually?
 
    It would be tedious to always do the manual merge, because you would have to
 approve everything, even just simple changes that should be obvious. It would be
-like doing the work twice. On the other hand, when chnages happen in the smae
+like doing the work twice. On the other hand, when changes happen in the same
 area of the document, it is good to have git ask you about them, since you don't
 want to clobber changes that are needed. 
 
