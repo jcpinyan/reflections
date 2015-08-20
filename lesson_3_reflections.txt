@@ -35,7 +35,13 @@ you can push to the remote repository.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    The way I do now. Making copies of files for people and then when they send
+me changes, working those changes into the master copy I keep. I do use diff
+sometimes to do that, which is similar to how git lets you compare things. In
+some ways, this is easier, because I don't have to try to get them to use a new
+system that they don't feel like learning. But in other ways, maybe you could
+consider it harder because there is potentially some redundancy. Or maybe there
+is an opportunity for different versions to get mixed up with each other.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
