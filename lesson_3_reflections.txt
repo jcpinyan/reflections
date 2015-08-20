@@ -27,7 +27,10 @@ permission to change the original repository.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you have a local copy of the last known state  of the remote, you can
+work on merging whatever it contains with the changes you were already working
+on locally. Then when it is all sorted out, and you have internet access again,
+you can push to the remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
