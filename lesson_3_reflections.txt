@@ -46,4 +46,14 @@ is an opportunity for different versions to get mixed up with each other.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I think I would make changes in a separate branch if I wanted to make sure
+master was there by itself, pristinely working, for me to be able to have
+someone else using the code. Then I would merge my other branch into master when
+I was releasing a new update. I cannot wrap my head around doing all this with
+another programmer making changes.
+    I would need to pull my partner's changes into my local master branch, then
+merge my local master with my working branch, then push my working branch to the
+remote, and then merge my working branch into master. Those are the steps
+described in the class. But they are not intuitive to me right now. So I would
+be disinclined to do this without a partner who was already very fluent in Git
+and GitHub and could hold my hand through these steps a few dozen times.
